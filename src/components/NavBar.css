@@ -17,14 +17,23 @@
     margin: 0 480px;
 }
 
+.home-link > img{
+    padding-top: 6px;
+}
+
 .nav-container > ul {
     display: flex;
     list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 30px 0 0 0;
 }
 
 a:any-link {
     color: var(--light-blue-color);
     text-decoration: none;
+
 }
 
 .projects-link {

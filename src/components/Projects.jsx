@@ -22,7 +22,7 @@ export default function Projects() {
                         <Tag tag="Node.JS"/>
                         <Tag tag="Express.JS"/>
                     </span>
-                    <ViewProjectButton />
+                    <ViewProjectButton project="portfolio-website"/>
                 </div>
                 <div className="project-img">
                     <img src="" alt="" />
@@ -42,7 +42,7 @@ export default function Projects() {
                         <Tag tag="Node.JS"/>
                         <Tag tag="Express.JS"/>
                     </span>
-                    <ViewProjectButton />
+                    <ViewProjectButton project="plus-ultra-deck-management"/>
                 </div>
                 <div className="project-img">
                     <img src="" alt="" />
@@ -62,7 +62,7 @@ export default function Projects() {
                         <Tag tag="Node.JS"/>
                         <Tag tag="Express.JS"/>
                     </span>
-                    <ViewProjectButton />
+                    <ViewProjectButton project="servo_app"/>
                 </div>
                 <div className="project-img">
                     <img src="" alt="" />
