@@ -1,0 +1,68 @@
+header {
+    padding: 259px 0 200px 0;
+}
+
+.introduction {
+    color: var(--light-blue-color);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    padding: 2px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.my-name {
+    color: var(--white-color);
+    font-size: 32px;
+    padding: 2px 0;
+    margin: 0;
+}
+
+.statement {
+    color: var(--gray-color);
+    font-size: 32px;
+    padding: 2px 0;
+    margin: 0;
+}
+
+.headline {
+    color: var(--white-color);
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+hr {
+    height: 2px;
+    background-color: var(--gray-color);
+    border: none;
+    mix-blend-mode: difference;
+    margin: 48px 0;
+}
+
+.say-hello {
+    color: var(--light-blue-color);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-me-btn {
+    background-color: var(--black-color);
+    color: var(--light-blue-color);
+    border-radius: 8px;
+    border: 2px solid var(--light-blue-color);
+    padding: 6px 0;
+    width: 100%;
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-me-btn:hover {
+    background-color: red;
+}
+
+.contact-me-btn:focus {
+    background-color: green;
+}

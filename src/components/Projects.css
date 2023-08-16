@@ -1,0 +1,55 @@
+.projects-component-container {
+    color: var(--white-color);
+}
+
+.projects-component-container > h2 {
+    color: var(--light-blue-color);
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+}
+
+.projects-component-container > p {
+    color: var(--white-color);
+    font-size: 16px;
+    margin: 0 0 24px 0;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 2px solid var(--light-blue-color);
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr;
+    row-gap: 12px;
+    padding: 0 10px 10px 0px;
+}
+
+.project-intro > h3 {
+    margin: 10px 10px 0 0;
+    color: var(--light-blue-color);
+    font-size: 24px;
+    padding-bottom: 2px;
+}
+
+.project-intro > p {
+    color: var(--white-color);
+    margin: 0 10px 0 0;
+    font-size: 16px;
+}
+
+.project-img {
+    background-color: var(--white-color);
+}
+
+.tag-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 10px 10px 0;
+}

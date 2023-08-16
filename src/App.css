@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+:root {
+  --light-blue-color: rgb(155, 159, 220);
+  --white-color: rgb(229, 232, 224);
+  --gray-color: rgb(109, 109, 109);
+  --black-color: rgb(26, 26, 26);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  flex: 1;
+  margin: 0 480px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: var(--black-color);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.footer {
+  background-color: var(--light-blue-color);
+  color: var(--black-color);
+  height: 40px;
+  width: 100%;
 }

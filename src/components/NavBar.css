@@ -1,0 +1,40 @@
+.nav {
+    position: fixed;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--black-color);
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-blue-color);
+    margin: 0 480px;
+}
+
+.nav-container > ul {
+    display: flex;
+    list-style: none;
+}
+
+a:any-link {
+    color: var(--light-blue-color);
+    text-decoration: none;
+}
+
+.projects-link {
+    padding: 0 10px 0 0;
+}
+
+.navbar-bottom-line {
+  height: 2px;
+  background-color: var(--light-blue-color);
+  border: none;
+  margin: 0;
+  padding: 0;
+}

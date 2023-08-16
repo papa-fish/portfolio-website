@@ -1,0 +1,12 @@
+.caption {
+    position: relative;
+    color: var(--black-color);
+    background-color: var(--light-blue-color);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.caption > h6 {
+    font-size: 14px;
+    margin: auto;
+}
