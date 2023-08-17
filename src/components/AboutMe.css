@@ -1,7 +1,7 @@
 .about-me {
     color: var(--light-blue-color);
-    font-size: 28px;
-    font-weight: bold;
+    font-size: var(--h2-font-size);
+    font-weight: var(--bold-font-weight);
     margin-bottom: 10px;
 }
 
@@ -27,7 +27,7 @@
 
 .paragraph-container {
     color: var(--white-color);
-    font-size: 16px;
+    font-size: var(--h6-font-size);
     width: 100%;
     margin: 0;
 }

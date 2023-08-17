@@ -5,6 +5,18 @@
   --white-color: rgb(229, 232, 224);
   --gray-color: rgb(109, 109, 109);
   --black-color: rgb(26, 26, 26);
+  --h1-font-size: 32px;
+  --h2-font-size: 28px;
+  --h3-font-size: 24px;
+  --h4-font-size: 20px;
+  --h5-font-size: 18px;
+  --h6-font-size: 16px;
+  --button-font-size: 16px;
+  --button-line-height: 24px;
+  --body-font-size: 16px;
+  --caption-font-size: 16px;
+  --bold-font-weight: 700;
+  --semibold-font-weight: 600
 }
 
 .App{

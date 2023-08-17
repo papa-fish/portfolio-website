@@ -4,8 +4,8 @@ header {
 
 .introduction {
     color: var(--light-blue-color);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: var(--button-font-size);
+    line-height: var(--button-line-height);
     letter-spacing: 2px;
     padding: 2px 0;
     margin: 0;
@@ -14,21 +14,21 @@ header {
 
 .my-name {
     color: var(--white-color);
-    font-size: 32px;
+    font-size: var(--h1-font-size);
     padding: 2px 0;
     margin: 0;
 }
 
 .statement {
     color: var(--gray-color);
-    font-size: 32px;
+    font-size: var(--h1-font-size);
     padding: 2px 0;
     margin: 0;
 }
 
 .headline {
     color: var(--white-color);
-    font-size: 20px;
+    font-size: var(--h4-font-size);
     margin-top: 24px;
 }
 
@@ -42,8 +42,8 @@ hr {
 
 .say-hello {
     color: var(--light-blue-color);
-    font-size: 28px;
-    font-weight: bold;
+    font-size: var(--h2-font-size);
+    font-weight: var(--bold-font-weight);
     margin-bottom: 10px;
 }
 
@@ -55,8 +55,8 @@ hr {
     padding: 6px 0;
     width: 100%;
     margin-bottom: 48px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: var(--button-font-size);
+    font-weight: var(--bold-font-weight);
 }
 
 .contact-me-btn:hover {

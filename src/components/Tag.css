@@ -7,6 +7,6 @@
 }
 
 .caption > h6 {
-    font-size: 14px;
+    font-size: var(--body-font-size);
     margin: auto;
 }

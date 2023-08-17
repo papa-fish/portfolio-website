@@ -3,8 +3,8 @@
     color: var(--light-blue-color);
     background-color: var(--black-color);
     border-radius: 8px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: var(--button-font-size);
+    line-height: var(--button-line-height);
     text-align: center;
     padding: 6px 0;
     width: 100%
