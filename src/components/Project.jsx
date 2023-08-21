@@ -15,7 +15,9 @@ export default function Project({ name, description, tags, website }) {
                         <Tag key={idx} tag={tag} />
                     ))}
                 </span>
-                <ViewProjectButton website={website}/>
+                <div className="project-btn-wrapper">
+                    <ViewProjectButton website={website}/>
+                </div>
             </div>
             <div className="project-img">
                 <img src="" alt="" />
