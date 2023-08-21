@@ -114,3 +114,9 @@ a:any-link {
     text-decoration: none;
     cursor: pointer;
 }
+
+.mobilelogo {
+    position: absolute;
+    top: 0;
+    left: 3em;
+}

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useRef, useState } from 'react';
 
 import logo from '../logo.svg';
+import mobilelogo from '../mobilelogo.svg';
 import './NavBar.css'
 
 export default function NavBar() {
@@ -52,6 +53,11 @@ export default function NavBar() {
                     id="menuOverlay" 
                     className={isMenuOpen ? "overlay open" : "overlay"} 
                     ref={menuOverlayRef}>
+                    <div>
+                        <Link to='/' className='home-link'>
+                            <img className='mobilelogo' src={mobilelogo} alt='logo' onClick={exitMenu} />
+                        </Link>
+                    </div>
                     <button className="exit-button" id="exitButton" onClick={exitMenu}>✕</button>
 
                     <div className="menu-item">
