@@ -25,7 +25,7 @@
     object-fit: cover;
 }
 
-.paragraph-container {
+.paragraph-container > p {
     color: var(--white-color);
     font-size: var(--h6-font-size);
     width: 100%;

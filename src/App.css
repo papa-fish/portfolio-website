@@ -27,7 +27,7 @@
 
 .content {
   flex: 1;
-  margin: 0 480px
+  margin: 0 480px;
 }
 
 body {
@@ -43,4 +43,78 @@ body {
   color: var(--black-color);
   height: 40px;
   width: 100%;
+}
+
+@media (max-width: 1920px) {
+  .content,
+  .nav-container,
+  footer > p {
+    margin: 0 320px;
+  }
+}
+
+@media (max-width: 1575px) {
+  .content,
+  .nav-container,
+  footer > p {
+    margin: 0 120px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .content,
+  .nav-container,
+  footer > p {
+    margin: 0 48px;
+  }
+}
+
+@media (max-width: 1035px) {
+  header {
+    padding: 189px 0 120px 0;
+  }
+  .projects {
+    grid-template-columns: none;
+    padding-left: 0px;
+  }
+  .project {
+    padding-left: 10px;
+  }
+  .tag-container {
+    flex-wrap: wrap;
+  }
+  .project-btn {
+    align-self: center;
+  }
+  .project-img {
+    grid-row: 1;
+    height: 110px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .about-me-wrapper {
+    margin: auto;
+    width: fit-content;
+  }
+  .img-row {
+    gap: 6px;
+    flex-direction: row;
+  }
+  .about-me-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px
+  }
+  .paragraph-container {
+    order: -1
+  }
+  .paragraph-container > p {
+    padding: 0 0 10px 0;
+  }
+  footer {
+    text-align: center;
+  }
+  footer > p {
+    font-size: 14px;
+  }
 }
