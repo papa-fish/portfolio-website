@@ -21,7 +21,7 @@
     padding-top: 6px;
 }
 
-.nav-container > ul {
+.desktop-nav {
     display: flex;
     list-style: none;
     font-size: var(--button-font-size);
@@ -33,7 +33,6 @@
 a:any-link {
     color: var(--light-blue-color);
     text-decoration: none;
-
 }
 
 .projects-link {
@@ -41,9 +40,77 @@ a:any-link {
 }
 
 .navbar-bottom-line {
-  height: 2px;
-  background-color: var(--light-blue-color);
-  border: none;
-  margin: 0;
-  padding: 0;
+    height: 2px;
+    background-color: var(--light-blue-color);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav {
+    width: 30px;
+    display: none;
+    cursor: pointer;
+    background-color: var(--black-color);
+    border: none;
+}
+
+  .mobile-nav div {
+    height: 4px;
+    background-color: rgb(155, 159, 220);
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+    width: 30px;
+}
+
+  #menuOverlay {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(155, 159, 220);
+    transition: 0.3s;
+}
+
+  .menu-item {
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    color: rgb(229, 232, 224);
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 10px;
+    transition: color 0.3s;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+  .menu-item a:any-link {
+    color: rgb(229, 232, 224);
+    text-decoration: none;
+}
+
+  .exit-button {
+    background-color: var(--light-blue-color);
+    border: none;
+    position: absolute;
+    top: 0.7em;
+    right: 1.8em;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
 }
