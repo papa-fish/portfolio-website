@@ -59,10 +59,8 @@ hr {
     font-weight: var(--bold-font-weight);
 }
 
-.contact-me-btn:hover {
-    background-color: red;
-}
-
+.contact-me-btn:hover,
 .contact-me-btn:focus {
-    background-color: green;
+    background-color: var(--light-blue-color);
+    color: var(--black-color);
 }

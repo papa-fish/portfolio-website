@@ -5,7 +5,14 @@
     border-radius: 8px;
     font-size: var(--button-font-size);
     line-height: var(--button-line-height);
+    font-weight: var(--semibold-font-weight);
     text-align: center;
     padding: 6px 0;
     width: 100%
+}
+
+.project-btn:hover,
+.project-btn:focus {
+    background-color: var(--light-blue-color);
+    color: var(--black-color);
 }
