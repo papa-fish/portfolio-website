@@ -97,7 +97,6 @@ body {
   .img-row {
     gap: 6px;
     flex-direction: row;
-    margin: auto;
   }
   .img-row > img {
     width: 144px;
