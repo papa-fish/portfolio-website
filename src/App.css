@@ -98,9 +98,6 @@ body {
     gap: 6px;
     flex-direction: row;
   }
-  .img-row > img {
-    width: 144px;
-  }
   .about-me-img-container {
     display: flex;
     flex-wrap: wrap;
@@ -129,12 +126,24 @@ body {
   }
 }
 
+@media (max-width: 425px) {
+  .img-row img {
+    width: 161px;
+  }
+}
+
+@media (max-width: 375px) {
+  .img-row img {
+    width: 136px;
+  }
+}
+
 @media (max-width: 320px) {
+  .img-row img {
+    width: 109px;
+  }
   footer > p {
     font-size: 11px;
     padding: 12px 0;
-  }
-  .img-row > img {
-    width: 109px;
   }
 }
