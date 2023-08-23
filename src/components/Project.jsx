@@ -1,7 +1,7 @@
 import Tag from "./Tag";
 import ViewProjectButton from "./ViewProjectButton";
 
-export default function Project({ name, description, tags, website }) {
+export default function Project({ name, description, tags, website, image }) {
 
     return(
         <article className="projects">
@@ -18,9 +18,6 @@ export default function Project({ name, description, tags, website }) {
                 <div className="project-btn-wrapper">
                     <ViewProjectButton website={website}/>
                 </div>
-            </div>
-            <div className="project-img">
-                <img src="" alt="" />
             </div>
         </article>
     );

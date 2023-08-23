@@ -84,12 +84,6 @@ body {
   .project-btn {
     align-self: center;
   }
-  .project-img {
-    grid-row: 1;
-    height: 110px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-  }
   .about-me-wrapper {
     margin: auto;
     width: fit-content;

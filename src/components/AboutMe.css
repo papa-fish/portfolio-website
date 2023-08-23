@@ -21,7 +21,7 @@
 .img-row > img {
     border-radius: 8px;
     width: 150px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .paragraph-container > p {
