@@ -27,7 +27,7 @@ export default function Projects() {
         "CSS",
         "Node.JS",
         "Express.JS",
-        "SQL"
+        "SQL (PSQL)"
     ];
 
     return(
