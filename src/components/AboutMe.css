@@ -14,6 +14,7 @@
 
 .img-row {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 12px;
 }
@@ -21,7 +22,6 @@
 .img-row > img {
     border-radius: 8px;
     width: 150px;
-    /* object-fit: cover; */
 }
 
 .paragraph-container > p {

@@ -6,16 +6,16 @@ export default function AboutMe() {
             <h2 className="about-me">About Me</h2>
             <div className="about-me-img-container">
                 <div className="img-row">
-                    <img src="https://i.imgur.com/BkTH542.png" alt="" />
-                    <img src="https://i.imgur.com/02Ry2qX.png" alt="" />
+                    <img src="https://i.imgur.com/l5bAWsA.png" alt="" />
+                    <img src="https://i.imgur.com/rC1n99y.png" alt="" />
                 </div>
                 <div className="img-row">
-                    <img src="https://i.imgur.com/Kh0RkEQ.png" alt="" />
-                    <img src="https://i.imgur.com/QAGi8uG.png" alt="" />
+                    <img src="https://i.imgur.com/5AjZF8l.png" alt="" />
+                    <img src="https://i.imgur.com/ReuMY90.png" alt="" />
                 </div>
                 <div className="img-row">
-                    <img src="https://i.imgur.com/kiYpWfs.png" alt="" />
-                    <img src="https://i.imgur.com/oMY2u0K.png" alt="" />
+                    <img src="https://i.imgur.com/GP0rglO.png" alt="" />
+                    <img src="https://i.imgur.com/T0UrmZ2.png" alt="" />
                 </div>
                 
                 <div className='paragraph-container'>
