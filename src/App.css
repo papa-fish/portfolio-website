@@ -130,11 +130,17 @@ body {
   .img-row img {
     width: 161px;
   }
+  footer > p {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 375px) {
   .img-row img {
     width: 136px;
+  }
+  footer > p {
+    font-size: 11px;
   }
 }
 
