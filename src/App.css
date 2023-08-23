@@ -131,7 +131,7 @@ body {
 
 @media (max-width: 375px) {
   .img-row img {
-    width: 135px;
+    width: 100px;
   }
   footer > p {
     font-size: 11px;
@@ -139,9 +139,6 @@ body {
 }
 
 @media (max-width: 320px) {
-  .img-row img {
-    width: 100px;
-  }
   footer > p {
     font-size: 11px;
     padding: 12px 0;
