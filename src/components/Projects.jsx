@@ -44,7 +44,7 @@ export default function Projects() {
 
             <Project 
                 name="Plus Ultra Deck Management"
-                description="Welcome to the Plus Ultra Deck Management platform. My purpose with this website is to offer you a comprehensive solution for effectively searching, constructing, and overseeing your card collection within the context of the My Hero Academia Collectible Card Game (MHA CCG). Catering to both adept players and novices alike, this website is meticulously curated to furnish you with an array of tools aimed at elevating your endeavors in card acquisition and deck assembly."
+                description="Welcome to the Plus Ultra Deck Management platform. My purpose with this website is to offer you a comprehensive solution for effectively searching, constructing, and overseeing your card collection within the context of the My Hero Academia Collectible Card Game (MHA CCG). Catering to both adept players and novices alike, this website is meticulously curated to furnish you with an array of tools aimed at elevating your endeavours in card acquisition and deck assembly."
                 tags={deckManagementTags}
                 website="plus-ultra-deck-management"
             />
