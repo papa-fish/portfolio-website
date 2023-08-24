@@ -51,7 +51,7 @@ export default function Projects() {
 
             <Project
                 name="Servo App"
-                description="In my first collaborative endeavor, our objective was to develop a single webpage application (SPA). This application aimed to provide users with the ability to access information pertaining to service stations within their local vicinity, as well as those distributed across Australia. Notably, users could readily identify the nearest stations based on the current centring of the map display. The application also featured a distinctive 'spotlight' station, alongside the presentation of up-to-date pricing details for Oil from WTI/Brent, as well as Natural Gas. These multifaceted functionalities were seamlessly realized through the adept utilization of the Google Maps API in conjunction with the Futures API."
+                description="In my first collaborative endeavour, our objective was to develop a single webpage application (SPA). This application aimed to provide users with the ability to access information pertaining to service stations within their local vicinity, as well as those distributed across Australia. Notably, users could readily identify the nearest stations based on the current centring of the map display. The application also featured a distinctive 'spotlight' station, alongside the presentation of up-to-date pricing details for Oil from WTI/Brent, as well as Natural Gas. These multifaceted functionalities were seamlessly realized through the adept utilization of the Google Maps API in conjunction with the Futures API."
                 tags={servoAppTags}
                 website="servo_app"
             />
