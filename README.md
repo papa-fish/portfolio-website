@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Portfolio Website README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my meticulously crafted portfolio website, a showcase of my coding proficiency and collaborative endeavours. This digital platform stands as a testament to my dedication, presenting a curated collection of my notable projects and achievements. I'm excited to highlight the invaluable creative input from a skilled designer, whose expertise channeled through Figma has been instrumental in shaping the visually captivating elements of this website.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This portfolio website is more than just a collection of projects; it's a fusion of technical prowess and innovative design, resulting in a seamless and engaging user experience. As you explore the various facets of my portfolio, you'll gain insight into my skills, experiences, and the journey that has brought me to where I am today.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Project Showcase:** Explore an array of projects that highlight my coding abilities and problem-solving skills.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Collaborative Success:** Recognise the collaborative nature of my work, with special credit to the design expertise that has elevated the visual aesthetics of the website.
 
-### `npm test`
+- **User-Focused Design:** Experience a user-friendly interface that ensures easy navigation and an enjoyable exploration of my portfolio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React.JS:** The website is built using React.JS, allowing for dynamic and responsive user interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React-Router:** Navigation between different sections of the portfolio is facilitated by React-Router, providing a seamless browsing experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **JSX:** JSX syntax is employed to elegantly structure the user interface components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **CSS and JavaScript:** Custom CSS styles and JavaScript enhance the overall design and interactivity of the website.
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Design:** The captivating visual design of this website owes its credit to the creative expertise of a skilled designer [Hannah Moore](www.hannahmoore.com.au), who utlised Figma to bring her artistic vision to life.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To explore my portfolio up close, simply visit [lukemoore.au](https://lukemoore.au). There, you'll find a dynamic collection of projects that underscore my coding journey.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+Feel free to reach out to me with any inquiries, collaborations, or opportunities. You can contact me at Lukechristophermoor@gmail.com.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thank you for visiting my portfolio website and taking the time to explore my work. Your interest is greatly appreciated.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Luke Moore*
