@@ -34,7 +34,7 @@ export default function NavBar() {
                         <li>Projects</li>
                     </Link>
                     <a 
-                        href="mailto:lukechristophermoore@gmail.com?subject=Hi Luke!" 
+                        href="mailto:admin@lukemoore.au?subject=Hi Luke!" 
                         target="_blank" 
                         rel='noreferrer' 
                         className='projects-link'>
@@ -71,7 +71,7 @@ export default function NavBar() {
 
                     <div className="menu-item">
                         <a 
-                            href="mailto:lukechristophermoore@gmail.com?subject=Hi Luke!" 
+                            href="mailto:admin@lukemoore.au?subject=Hi Luke!" 
                             target="_blank" 
                             rel='noreferrer' 
                             className='projects-link'

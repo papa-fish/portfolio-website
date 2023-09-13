@@ -1,6 +1,6 @@
 export default function EmailMeButton() {
 
-    const recipient = "lukechristophermoore@gmail.com";
+    const recipient = "admin@lukemoore.au";
     const subject = "Hi Luke!";
     const body = "You're hired!";
   

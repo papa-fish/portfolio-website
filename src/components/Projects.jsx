@@ -11,14 +11,9 @@ export default function Projects() {
         "CSS"
     ];
 
-    const deckManagementTags = [
+    const mhaCompanionAppTags = [
         "React",
-        "React-Router",
-        "MUI",
-        "Express.JS",
-        "JavaScript",
-        "CSS",
-        "Mongoose",
+        "React Native",
     ];
 
     const servoAppTags = [
@@ -35,18 +30,20 @@ export default function Projects() {
             <h2>Projects</h2>
             <p>Within these projects lies a snapshot of my learning and growth journey, showcasing my genuine excitement for crafting imaginative solutions.</p>
 
+            <Project
+                name="MHA Companion App"
+                description="Welcome to the MHA Companion App, your go-to tool for enhancing your My Hero Academia Collectible Card Game (MHA CCG) experience! This mobile app is built using React Native and is designed to streamline matches in the MHA CCG.
+                As a developer, I embarked on this project with no previous experience in mobile development, specifically learning React Native for this purpose. This journey has been a great learning experience for me, and I am excited to share this app with the MHA CCG community.
+                The MHA Companion App will soon be available on both the App Store and Google Play Store, making it easily accessible to a wide range of users."
+                tags={mhaCompanionAppTags}
+                website={"mha-companion-app"}
+            />
+
             <Project 
                 name="Portfolio Website"
                 description="Introducing my meticulously crafted portfolio website, a testament to my proficiency in coding and collaboration. Developed with precision and care, this digital platform showcases a selection of my notable works and accomplishments. I am proud to acknowledge the creative expertise of my wife, whose design acumen, channeled through Figma, played an integral role in shaping the visually captivating aspects of the website. As visitors explore the diverse facets of my portfolio, they are invited to witness a fusion of technical prowess and innovative design, resulting in a seamless and engaging user experience."
                 tags={portfolioTags}
                 website="portfolio-website"
-            />
-
-            <Project 
-                name="Plus Ultra Deck Management"
-                description="Welcome to the Plus Ultra Deck Management platform. My purpose with this website is to offer you a comprehensive solution for effectively searching, constructing, and overseeing your card collection within the context of the My Hero Academia Collectible Card Game (MHA CCG). Catering to both adept players and novices alike, this website is meticulously curated to furnish you with an array of tools aimed at elevating your endeavours in card acquisition and deck assembly."
-                tags={deckManagementTags}
-                website="plus-ultra-deck-management"
             />
 
             <Project
