@@ -14,6 +14,8 @@ export default function Projects() {
     const mhaCompanionAppTags = [
         "React",
         "React Native",
+        "Android",
+        "iOS",
     ];
 
     const servoAppTags = [
@@ -31,12 +33,12 @@ export default function Projects() {
             <p>Within these projects lies a snapshot of my learning and growth journey, showcasing my genuine excitement for crafting imaginative solutions.</p>
 
             <Project
-                name="MHA Companion App"
-                description="Welcome to the MHA Companion App, your go-to tool for enhancing your My Hero Academia Collectible Card Game (MHA CCG) experience! This mobile app is built using React Native and is designed to streamline matches in the MHA CCG.
+                name="MHA CCG Companion App"
+                description="Welcome to the MHA CCG Companion App, your go-to tool for enhancing your My Hero Academia Collectible Card Game (MHA CCG) experience! This mobile app is built using React Native and is designed to streamline matches in the MHA CCG.
                 As a developer, I embarked on this project with no previous experience in mobile development, specifically learning React Native for this purpose. This journey has been a great learning experience for me, and I am excited to share this app with the MHA CCG community.
-                The MHA Companion App will soon be available on both the App Store and Google Play Store, making it easily accessible to a wide range of users."
+                The MHA CCG Companion App will soon be available on both the App Store and Google Play Store, making it easily accessible to a wide range of users."
                 tags={mhaCompanionAppTags}
-                website={"mha-companion-app"}
+                website={"mha-ccg-companion-app"}
             />
 
             <Project 
