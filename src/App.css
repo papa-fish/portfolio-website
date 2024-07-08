@@ -102,6 +102,7 @@ body {
   }
   .paragraph-container > p {
     padding: 0 0 10px 0;
+    max-width: 75ch;
   }
   footer {
     text-align: center;

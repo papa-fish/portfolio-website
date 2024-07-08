@@ -3,7 +3,7 @@ import './ViewProjectButton.css';
 export default function ViewProjectButton(props) {
 
     const handleClick = () => {
-        window.open(`https://github.com/papa-fish/${props.website}`, '_blank');
+        window.open(`${props.website}`, '_blank');
     };
 
     return(

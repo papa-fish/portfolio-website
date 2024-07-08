@@ -1,7 +1,7 @@
 import Tag from "./Tag";
 import ViewProjectButton from "./ViewProjectButton";
 
-export default function Project({ name, description, tags, website, image }) {
+export default function Project({ name, description, tags, website }) {
 
     return(
         <article className="projects">

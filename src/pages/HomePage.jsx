@@ -11,7 +11,7 @@ export default function HomePage() {
           <p className='introduction'>Hi, my name is</p>
           <h1 className='my-name'>Luke Moore.</h1>
           <h1 className='statement'>I build things for the internet.</h1>
-          <h4 className='headline'>I specialise in creating exceptional digital experiences as a full-stack software engineer.  I'm situated in Sydney, Australia, and I'm open to both local and remote full-time opportunities.</h4>
+          <h4 className='headline'>I specialise in creating exceptional digital experiences as a full-stack software engineer.  I'm situated in Melbourne, Australia, and I'm open to both local and remote full-time opportunities.</h4>
         </header>
 
         <hr />
